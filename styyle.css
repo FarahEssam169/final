@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start nav par */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-left: -10px;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loggo {
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.lodge {
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unorder-list {
+    list-style-type: none;
+    display: flex;
+    margin-left: 780px;
+    color: white;
+}
+
+.li {
+    display: flex;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: -20px;
+}
+
+.li:hover {
+    color: rgb(121, 119, 111);
+}
+
+/* end nav par */

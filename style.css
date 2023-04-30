@@ -1,0 +1,895 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start header */
+header {
+    background-image: url(./a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* start nav par */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loggo {
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.lodge {
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.unorder-list {
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.li {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.li:hover {
+    color: rgb(121, 119, 111);
+}
+
+/* end nav par */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.container .header-data {
+    display: flex;
+    justify-content: center;
+}
+
+.collection {
+    padding: 0 50px 0 50px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.yy {
+    width: 50px;
+    margin-top: -10px;
+    margin-left: 240px;
+    border-bottom: 1px solid black;
+}
+
+.larg-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.pragraph {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.numbuer {
+    display: flex;
+    margin-top: 20px;
+}
+
+button {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 80px;
+}
+
+button:hover {
+    background-color: white;
+    transition: 1s ease;
+    color: black;
+}
+
+.numbuer-1 {
+    margin-top: 1px;
+    margin-left: 60px;
+    font-size: 25px;
+    color: gray;
+    opacity: 0.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.photo {
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.ditales {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    opacity: 0.5;
+
+}
+
+.p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.w {
+    margin-left: -4px;
+}
+
+.p2 {
+    margin-top: 10px;
+}
+
+.ff {
+    width: 1px;
+    height: 60px;
+    background-color: white;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: none;
+}
+
+.photo img {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+/* end header*/
+
+/* start best price  */
+.best-sales {
+    margin-top: 30px;
+    margin-left: 280px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.xx {
+    width: 10px;
+    height: 25px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(255, 200, 118), rgb(255, 139, 7));
+    margin-left: 150px;
+    margin-top: -27px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pracelet {
+    padding: 5px;
+    width: 250px;
+    height: 210px;
+    margin-left: 40px;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo2 {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.ring {
+    padding: 5px;
+    width: 250px;
+    height: 210px;
+    margin-left: 40px;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.earings {
+    padding: 5px;
+    width: 250px;
+    height: 210px;
+    margin-left: 40px;
+    border: none;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pracelet:hover {
+    background-color: rgb(243, 242, 242);
+    transition: 1s ease;
+}
+
+.ring:hover {
+    background-color: rgb(243, 242, 242);
+    transition: 1s ease;
+}
+
+.earings:hover {
+    background-color: rgb(243, 242, 242);
+    transition: 1s ease;
+}
+
+.word {
+    color: rgb(252, 150, 34);
+    margin-top: 1px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name1 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name2 {
+    margin-top: 35px;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name3 {
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* end  best price  */
+
+/* start about jewellery shop  */
+.about-jewellery {
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.vv {
+    width: 10px;
+    height: 25px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(255, 200, 118), rgb(255, 139, 7));
+    margin-left: 320px;
+    margin-top: -27px;
+}
+
+.container-3 {
+    margin-top: 10px;
+    display: flex;
+}
+.jewellery-data {
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 .discription {
+    padding: 50px;
+}
+
+#pragraph {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.buttom {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.photo3 .brac {
+    width: 500px;
+    height: 500px;
+    margin-top: -120px;
+}
+
+.images {
+    margin-left: 250px;
+    margin-top: 180px;
+}
+/*  end about jewellery shop */
+
+/* start our jewellery price */
+.container-4 {
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.jewellery {
+    margin-left: 190px;
+    line-height: 130px;
+}
+
+.zz {
+    width: 10px;
+    height: 25px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(255, 200, 118), rgb(255, 139, 7));
+    margin-left: 300px;
+    margin-top: -75px;
+}
+
+.parent {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    background-color: white;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    display: block;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h4 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#ch1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.child2 {
+    background-color: white;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ch2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.child3 {
+    background-color: white;
+    padding: 5px;
+    width: 300px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#ch3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 100px
+}
+
+#price {
+    color: rgb(250, 141, 40);
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p3 {
+    margin-left: 100px;
+    font-size: large;
+    margin-top: 90px;
+}
+
+#buy-now {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+#buy-now:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 1s ease;
+    color: rgb(250, 141, 40);
+}
+.btn-container {
+display: flex;
+justify-content: center;
+}
+
+#butt {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+#butt:hover {
+    background-color: white;
+    transition: 1s ease;
+    color: black;
+}
+/* end our jewellery price */
+
+/* start special rings */
+.special-rings {
+    width: 1000px;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widding-ring {
+    display: block;
+}
+
+.special {
+    color: rgb(250, 141, 40);
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+}
+
+.widding {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 120px;
+    margin-top: 90px;
+}
+
+.photo-ring {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.photo-ring:hover {
+    background-color: black;
+    transition: 1s ease;
+    color: white;
+}
+.image .cercle3 {
+    margin-top: 30px;
+}
+/* end special rings */
+
+/* start testimonial */
+.says {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.oo {
+    width: 10px;
+    height: 25px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(255, 200, 118), rgb(255, 139, 7));
+    margin-left: 760px;
+    margin-top: -27px;
+}
+
+.pp {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.says-customer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.left {
+    margin-top: 70px;
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+.left:hover {
+    transition: 1s ease;
+    color: rgb(255, 136, 0);
+}
+
+.customer {
+    border: 1px solid orangered;
+    width: 800px;
+    height: 150px;
+    display: flex;
+}
+
+.client {
+    height: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.aliqua {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.Consectetur {
+    color: orange;
+    margin-top: 80px;
+    margin-left: -65px;
+}
+
+.Lorem {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.right {
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.right:hover {
+    transition: 1s ease;
+    color: rgb(255, 136, 0);
+}
+
+/* end testimonial */
+
+/* start contact us  */
+.contact {
+    margin-top: 30px;
+    
+}
+.contact-data{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form {
+    margin-top: 150px;
+}
+
+.h3 {
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.namee {
+    width: 500px;
+    height: 40px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 60px;
+}
+
+.namee2 {
+    line-height: 40px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.email {
+    width: 500px;
+    height: 40px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+}
+
+.email2 {
+    line-height: 40px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.phone {
+    width: 500px;
+    height: 40px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+}
+
+.phone2 {
+    line-height: 40px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.message {
+    width: 500px;
+    height: 100px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+}
+
+.message2 {
+    line-height: 100px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#send {
+    width: 4px;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    margin-top: 80px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(252, 240, 222), rgb(255, 139, 7));
+}
+
+#send:hover {
+    background-color: white;
+    transition: 1s ease;
+    color: black;
+}
+
+.map {
+    margin-top:240px;
+    margin-left: 60px;
+}
+
+.imagess {
+    margin-left: 1280px;
+}
+/*  end contact us*/
+
+/* start subscribe */
+.container-8 {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 650px;
+    margin-top: 40px;
+}
+
+.address {
+    display: flex;
+}
+
+.logo2 {
+    width: 180px;
+    height: 250px;
+    background-color: white;
+    margin-top: -40px;
+    margin-left: 160px;
+    border-radius: 40px;
+    border: none;
+    display: flex;
+}
+
+.ring-logo {
+    width: 50px;
+    height: 60px;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.lodge2 {
+    margin-top: 160px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.contact2 {
+    display: flex;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.icon2 {
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.adress {
+    margin-left: 10px;
+}
+
+.icon3 {
+    display: flex;
+    color: white;
+    margin-left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.phone-number {
+    margin-left: 10px;
+}
+
+.icon4 {
+    display: flex;
+    color: white;
+    margin-left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message-email {
+    margin-left: 10px;
+}
+
+.newsleter {
+    display: block;
+    margin-top: 10px;
+}
+
+.new2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.pp2 {
+    width: 50px;
+    height: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(252, 240, 222), rgb(255, 139, 7));
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+.enter {
+    color: white;
+    opacity: 0.3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.pp3 {
+    width: 450px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 450px;
+}
+
+#subs {
+    border-radius: 30px;
+    width: 190px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    margin-left: 600px;
+    margin-top: 40px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(252, 240, 222), rgb(214, 117, 5));
+
+}
+
+.follow {
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: x-large;
+}
+
+.pp4 {
+    width: 50px;
+    height: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    background-image: linear-gradient(rgb(252, 240, 222), rgb(255, 139, 7));
+    margin-top: 10px;
+    margin-left: 670px;
+}
+
+.icons {
+    margin-top: 20px;
+    margin-left: 590px;
+}
+
+.i2 {
+    margin-left: 20px;
+}
+
+.i3 {
+    margin-left: 20px;
+}
+
+.i4 {
+    margin-left: 20px;
+}
+
+.us {
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+.final {
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+/* end subscribe */
